@@ -1,0 +1,7 @@
+[32mINFO    [0m root:payorderapi.py:22 支付接口的url是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/15592.html
+[32mINFO    [0m root:orderapi.py:17 提交订单的url地址是http://121.42.15.146:9090/mtx/index.php?s=/index/buy/add.html
+[32mINFO    [0m root:orderapi.py:29 提交订单的data是{'goods_id': 1, 'stock': 2, 'buy_type': 'goods', 'address_id': 600, 'payment_id': 1, 'spec': ''}
+[32mINFO    [0m root:orderapi.py:31 提交订单的响应是<Response [200]>
+[32mINFO    [0m root:orderapi.py:35 提交订单提取的JUMP_URL的值是http://121.42.15.146:9090/mtx/index.php?s=/index/order/pay/id/15593.html
+[32mINFO    [0m root:payorderapi.py:29 支付的302跳转接口的响应是<Response [302]>
+[32mINFO    [0m root:payorderapi.py:30 支付的302跳转接口的响应头的location是http://121.42.15.146:9090/mtx/payment_order_deliverypayment_respond.php?out_trade_no=20210924162548253737&subject=è®¢åæ¯ä»&total_price=4200.00
